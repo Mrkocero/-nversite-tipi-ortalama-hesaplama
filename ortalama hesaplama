@@ -1,0 +1,12 @@
+b=int(input('final notunuzu giriniz'))
+ca=int(input('vize notunuzu giriniz'))
+=input('adınızı soyadınızı giriniz')
+d=input('dersin adını giriniz')
+e=a*(40/100) + b*(70/100)
+print('{} adlı ögrenci dersinin {} ortalaması {}'.format(c,e,d))
+if a>=90:
+    print("bu derste gayet başarılısın böyle devam et")
+elif 89>=a>50:
+    print('biraz daha kendini grliştirmelisin')
+else:
+    print("bu not ne insan evladı")
